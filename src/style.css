@@ -48,14 +48,17 @@
 }
 
 .hero--section {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     max-width: 100%;
     height: 100%;
     background-color: #F2DEDF;
-    /* padding: 0 168px; */
+    padding: 0 168px;
     gap: 48.65px;
+    padding-bottom: 160px;
+    overflow: hidden;
 }
 
 .hero-img {
@@ -102,5 +105,36 @@
 
 .hero-design-img {
     position: absolute;
-    top: 830px;
+    top: 688px;
+    width: 1000px;
+    height: 100px;
+}
+
+.hero-dots {
+    position: absolute;
+}
+
+.hero-dots-1 {
+    top: 165px;
+    left: 735px;
+}
+.hero-dots-2 {
+    top: 66px;
+    left: 1295px;
+}
+.hero-dots-3 {
+    top: -5px;
+    left: -36px;
+}
+.hero-dots-4 {
+    top: 277px;
+    left: 1462px;
+}
+.hero-dots-5 {
+    top: 515px;
+    left: -36px;
+}
+.hero-dots-6 {
+    top: 677px;
+    left: 1462px;
 }
